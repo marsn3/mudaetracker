@@ -36,6 +36,12 @@ It will save the information in a CSV FIle with the following format:
 
 If you want to download the csv files directly in discord, use `[p]csv`, where `[p]` is the prefix set in `config.py` (by default, it is`.`)
 
+## Planned Features
+
+- Exporting to .xlsx file with pivot tables
+- (Automatic) generation of graphs from collected data
+- Automatic uploading of the data to a GitHub Repo for Archiving
+
 ## Credits
 
 [Selenium Code](browsers.py) and [README](README.md) adapted from [AutoWaifuClaimer](https://github.com/RandomBananazz/AutoWaifuClaimerV3/)
