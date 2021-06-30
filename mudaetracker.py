@@ -24,7 +24,7 @@ class MudaeTracker(commands.Cog):
         if not os.path.exists(str(self.top_path)):
             with open(str(self.top_path), "w", newline="", encoding="utf-8") as csvfile:
                 c = csv.writer(csvfile)
-                c.writerow(["rank", "name", "series", "date"])
+                c.writerow(["name", "rank", "date", "series"])
         if os.path.exists(IM_LIST):
 
             self.im_path = "im_chars.csv"
@@ -34,7 +34,7 @@ class MudaeTracker(commands.Cog):
                 ) as csvfile:
                     c = csv.writer(csvfile)
                     c.writerow(
-                        ["claimrank", "likerank", "kakera", "name", "series", "time"]
+                        ["name", "claimrank", "likerank", "kakera", "time", "series"]
                     )
             self.im.start()
         self.top.start()

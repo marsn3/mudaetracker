@@ -26,15 +26,16 @@ Install Firefox and geckodriver. This will be used to send the $top messages aut
 By Default, the Bot will check the Top1000 every three Days, this Behavior can be changed by editing changing the Value of `HOURS` in `config.py`.
 
 The bot creates a CSV File with the following format:
-| Rank | Name | Series | Date |
-| ---- | ---- | ------ | ---- |
+| Name | Rank | Date | Series |
+| ---- | ---- | ---- | ------ |
 
 You can also enter custom characters to be checked in `im_list.txt`, where every line equals one character.
 It will save the information in a CSV FIle with the following format:
-| claimrank | likerank | kakera | name | series | date |
-| --------- | -------- | ------ | ---- | ------ | ---- |
+| name | claimrank | likerank | kakera | date | series |
+| ---- | --------- | -------- | ------ | ---- | ------ |
 
-If you want to download the csv files directly in discord, use `[p]csv`, where `[p]` is the prefix set in `config.py`(by default, it is`.`)
+If you want to download the csv files directly in discord, use `[p]csv`, where `[p]` is the prefix set in `config.py` (by default, it is`.`)
+
 ## Credits
 
 [Selenium Code](browsers.py) and [README](README.md) adapted from [AutoWaifuClaimer](https://github.com/RandomBananazz/AutoWaifuClaimerV3/)

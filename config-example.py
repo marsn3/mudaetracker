@@ -12,7 +12,7 @@ HOURS = 72  # How often the Top1000 should be checked
 IM_LIST = "im_list.txt"  # File with characters to check additionally to the top1000
 
 #  User login info.
-#  This is not sent to any external server, but only uses to login to browser Discord.
+#  This is not sent to any external server, but only used to login to browser Discord.
 #  See Browser.browser_login() (specifically line 49-77) in browsers.py to see how it is exactly used.
 LOGIN_INFO = ("example@example.com", "your_password")
 TOKEN = "your_bot_token"  # Your Discord Bot Token
