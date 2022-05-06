@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
 from config import *
-
+import os
 
 class Browser:
     def __init__(self):
@@ -40,7 +40,7 @@ class Browser:
         self.driver = webdriver.Firefox(
             executable_path=WEB_DRIVER_PATH,
             options=options,
-            service_log_path="/dev/null",
+            service_log_path=os.devnull,
         )
         self.actions = ActionChains(self.driver)
 
