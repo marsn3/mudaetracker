@@ -144,5 +144,5 @@ class MudaeTracker(commands.Cog):
                             self.write_csv(self.im_path, message)
 
 
-def setup(bot):
-    bot.add_cog(MudaeTracker(bot))
+async def setup(bot):
+    await bot.add_cog(MudaeTracker(bot))

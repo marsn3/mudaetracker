@@ -18,4 +18,4 @@ LOGIN_INFO = ("example@example.com", "your_password")
 TOKEN = "your_bot_token"  # Your Discord Bot Token
 
 # Geckodriver path
-WEB_DRIVER_PATH = "/usr/bin/geckodriver"  # Path to geckodriver
+WEB_DRIVER_PATH = "geckodriver"  # Full path to geckodriver if it isn't on PATH
